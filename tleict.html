@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> TLE-ICT </title>
+<style>
+html {scroll-behavior:smooth;}
+h1.header {font-family:Pristina; text-align:center; background-color:#d5a871; color:#f3e197; font-size:75px; margin:0px; padding:0px;}
+h1.header1 {font-family:Pristina; text-align:center; background-color:#00000; color:#f3e197; font-size:75px; margin:0px; padding:0px;}
+h1.lessons {font-family:Pristina; text-align:center; color:#d5a871; font-size:35px;}
+
+.button {text-align:center; background-color:#d5a871; color:#f3e197; font-family:Californian FB; font-size: 16px; cursor: pointer; padding: 5px 7px;}
+.button1 {text-align:center; background-color:#bf6f3d; color:#f3e197; font-family:Californian FB; font-size: 25px; cursor: pointer; padding: 5px 7px;}
+@keyframes slideIn {0% {opacity: 0; transform: translateX(-50%);}100% {opacity:1; transform:translateX(0);}}
+.page-content {animation: slideIn 1.5s ease-in-out forwards;}
+body.one {margin:0px; font-family:Californian FB; font-size:20px;}
+.column {padding: 9px; text-align:center; font-size:25px;}
+.row::after {content:""; clear:both; display:table;}
+img.one {text-align:center; width:250px; height:250px;}
+img.two {text-align:center; width:150px; height:150px;}
+
+p {color:#5a80a6;}
+a {text-decoration:none;}
+
+div.scroll {background-color: #5a80a6; overflow: auto; white-space: nowrap; padding: 10px;}
+div.scroll img {padding: 10px; height:450px; width:600px;}
+div.scroll1 {background-color: #f3e197; overflow: auto; white-space: nowrap; padding: 10px;}
+div.scroll1 img {padding: 10px; height:300px; width:250px;}
+
+.grid-container {display: grid; grid-template-columns: 1fr 1fr; gap: 20px; background-image: linear-gradient(to bottom, white, #bbd5fa);}
+.grid-child {border: 1px solid #00000; padding: 0px;}
+</style>
+</head>
+
+<body class="page-content one">
+<h1 class="header"> TLE-ICT
+<input type="button" class="button" value="Home / My Personal Space" onclick="location.href='index.html';">
+<input type="button" class="button" value="ARALING PANLIPUNAN" onclick="location.href='aralingpanlipunan.html';">
+</h1>
+<img src="DIVIDER.jpg" width="100%" height="150px" margin="0px">
+
+<div class="grid-container">
+<div class="grid-child">
+<h1 class="lessons" align="center"> SCHOOL ACTIVITIES </h1>
+<div class="column">
+<a href="12events.html">
+<img class="one" src="EVENTS.png">
+</a>
+<a href="34events.html">
+<img class="one" src="EVENTS1.png">
+</a>
+</div>
+</div>
+
+<div class="grid-child">
+<h1 class="lessons" align="center"> ICT LESSONS (arranged by quarters) </h1>
+<br><br>
+<div class="column">
+<a href="1qtrlesson.html">
+<img class="two" src="1QUARTER.png">
+</a>
+<a href="2qtrlesson.html">
+<img class="two" src="2QUARTER.png">
+</a>
+<a href="3qtrlesson.html">
+<img class="two" src="3QUARTER.png">
+</a>
+<a href="4qtrlesson.html">
+<img class="two" src="4QUARTER.png">
+</a>
+</div>
+</div>
+</div>
+</body>
+</html>
